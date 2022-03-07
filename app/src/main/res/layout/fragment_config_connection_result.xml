@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".configviews.ConfigConnectionResultFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:id="@+id/connection_result_image"
+        android:layout_width="@dimen/margin_0"
+        android:layout_height="@dimen/margin_0"
+        android:contentDescription="@string/connection_result_image"
+        app:layout_constraintBottom_toTopOf="@+id/connection_result_message"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="3" />
+
+    <TextView
+        android:id="@+id/connection_result_message"
+        android:layout_width="@dimen/margin_0"
+        android:layout_height="@dimen/margin_0"
+        android:layout_marginTop="@dimen/margin_0"
+        android:textSize="@dimen/font_size_medium"
+        android:textColor="@color/white"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/save_or_retry_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/connection_result_image"
+        app:layout_constraintVertical_weight="1" />
+
+    <Button
+        android:id="@+id/save_or_retry_button"
+        style="@style/NavigationButton"
+        android:layout_width="@dimen/nav_button_width"
+        android:layout_height="@dimen/nav_button_height"
+        android:layout_marginTop="@dimen/margin_0"
+        android:layout_marginBottom="@dimen/margin_8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/connection_result_message" />
+</androidx.constraintlayout.widget.ConstraintLayout>

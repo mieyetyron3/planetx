@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startRouterFragment">
+
+    <fragment
+        android:id="@+id/startRouterFragment"
+        android:name="com.example.planetx.StartRouterFragment"
+        android:label="fragment_start_router"
+        tools:layout="@layout/fragment_start_router" >
+        <action
+            android:id="@+id/action_startRouterFragment_to_configWelcomeFragment"
+            app:destination="@id/configWelcomeFragment" />
+        <action
+            android:id="@+id/action_startRouterFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/configWelcomeFragment"
+        android:name="com.example.planetx.configviews.ConfigWelcomeFragment"
+        android:label="fragment_config_welcome"
+        tools:layout="@layout/fragment_config_welcome" >
+        <action
+            android:id="@+id/action_configWelcomeFragment_to_configQrScanFragment"
+            app:destination="@id/configQrScanFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/configQrScanFragment"
+        android:name="com.example.planetx.configviews.ConfigQrScanFragment"
+        android:label="fragment_config_qr_scan"
+        tools:layout="@layout/fragment_config_qr_scan" >
+        <action
+            android:id="@+id/action_configQrScanFragment_to_configDataDisplayFragment"
+            app:destination="@id/configDataDisplayFragment" />
+        <action
+            android:id="@+id/action_configQrScanFragment_to_configWelcomeFragment"
+            app:destination="@id/configWelcomeFragment"
+            app:popUpTo="@id/configWelcomeFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_configQrScanFragment_to_configQrScanDialogFragment"
+            app:destination="@id/configQrScanDialogFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/configDataDisplayFragment"
+        android:name="com.example.planetx.configviews.ConfigDataDisplayFragment"
+        android:label="fragment_config_data_display"
+        tools:layout="@layout/fragment_config_data_display" >
+        <action
+            android:id="@+id/action_configDataDisplayFragment_to_configConnectionResultFragment"
+            app:destination="@id/configConnectionResultFragment" />
+        <action
+            android:id="@+id/action_configDataDisplayFragment_to_configQrScanFragment"
+            app:destination="@id/configQrScanFragment"
+            app:popUpTo="@id/configQrScanFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/configConnectionResultFragment"
+        android:name="com.example.planetx.configviews.ConfigConnectionResultFragment"
+        android:label="fragment_config_connection_result"
+        tools:layout="@layout/fragment_config_connection_result" >
+        <action
+            android:id="@+id/action_configConnectionResultFragment_to_configDataDisplayFragment"
+            app:destination="@id/configDataDisplayFragment"
+            app:popUpTo="@id/configDataDisplayFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_configConnectionResultFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/startRouterFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <dialog
+        android:id="@+id/configQrScanDialogFragment"
+        android:name="com.example.planetx.configviews.ConfigQrScanDialogFragment"
+        android:label="ConfigQrScanDialogFragment" >
+        <action
+            android:id="@+id/action_configQrScanDialogFragment_to_configQrScanFragment"
+            app:destination="@id/configQrScanFragment"
+            app:popUpTo="@id/configQrScanFragment"
+            app:popUpToInclusive="true" />
+    </dialog>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.planetx.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+</navigation>

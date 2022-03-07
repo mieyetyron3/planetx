@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Planet X</string>
+    <string name="hello_blank_fragment">Hello Blank Fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!--    general-->
+    <string name="start_btn">Start</string>
+    <string name="next_btn">Next</string>
+    <string name="prev_btn">Previous</string>
+    <string name="confirm_msg">Confirm</string>
+    <string name="connect_btn">Connect</string>
+    <string name="reconnect_msg">Reconnect</string>
+    <string name="close">Close</string>
+
+    <!--    Application-->
+    <string name="config_data_shared_preference">CONFIG_DATA_SHARED_PREFERENCE</string>
+    <string name="config_json">CONFIG_JSON</string>
+
+    <!--    Config-->
+    <string name="config_intro">Welcome to Planet X, the application that allows you to explore space. On this page you will be guided to connect your Planet X with your mobile device. Please have with you: \n 1. Planet X kit\n 2. The QR code provided for the guided connection</string>
+    <string name="config_intro_next">Press \"Start\" button to continue</string>
+
+    <!--    Qr-code Scan messages-->
+    <string name="qr_scan_msg">Please scan a valid Planet X QRCode</string>
+    <string name="qr_scan_error_msg">Qr Code is not a Planet X QR</string>
+    <string name="qr_scanner">qr_scanner</string>
+    <string name="flash">flash</string>
+
+    <!--    Wifi Connection-->
+    <string name="wifi_connection_error">Unable to connect to %1$s network</string>
+    <string name="astronaut_image">astronaut_image</string>
+    <string name="user_id">User ID:</string>
+    <string name="code_name">Code Name:</string>
+    <string name="connection_success_msg">Connection Success</string>
+    <string name="save">Save</string>
+    <string name="connection_failure_msg">Connection Failure</string>
+    <string name="retry">Retry</string>
+    <string name="connection_result_image">Connection Result Image</string>
+    <string name="planet_x_street_view_image">Planet X Street View Image</string>
+    <string name="planet_x_logo_image">Planet X Logo</string>
+
+</resources>

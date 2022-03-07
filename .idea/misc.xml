@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Mieye/AndroidStudioProjects/PlanetX/app/src/main/res/drawable/ic_baseline_cast_24.xml" value="0.2265" />
+        <entry key="..\:/Users/Mieye/AndroidStudioProjects/PlanetX/app/src/main/res/drawable/ic_baseline_cast_32.xml" value="0.2265" />
+        <entry key="..\:/Users/Mieye/AndroidStudioProjects/PlanetX/app/src/main/res/drawable/ic_baseline_cast_connected_24.xml" value="0.2265" />
+        <entry key="..\:/Users/Mieye/AndroidStudioProjects/PlanetX/app/src/main/res/drawable/ic_baseline_cast_connected_32.xml" value="0.2265" />
+        <entry key="..\:/Users/Mieye/AndroidStudioProjects/PlanetX/app/src/main/res/drawable/ic_baseline_flash_off_64.xml" value="0.2265" />
+        <entry key="..\:/Users/Mieye/AndroidStudioProjects/PlanetX/app/src/main/res/drawable/ic_baseline_flash_on_64.xml" value="0.2265" />
+        <entry key="..\:/Users/Mieye/AndroidStudioProjects/PlanetX/app/src/main/res/drawable/ic_baseline_qr_code_scanner_24.xml" value="0.2265" />
+        <entry key="..\:/Users/Mieye/AndroidStudioProjects/PlanetX/app/src/main/res/drawable/ic_baseline_qr_code_scanner_72.xml" value="0.2265" />
+        <entry key="..\:/Users/Mieye/AndroidStudioProjects/PlanetX/app/src/main/res/drawable/ic_round_check_circle_72.xml" value="0.124" />
+        <entry key="..\:/Users/Mieye/AndroidStudioProjects/PlanetX/app/src/main/res/drawable/ic_round_error_72.xml" value="0.124" />
+        <entry key="..\:/Users/Mieye/AndroidStudioProjects/PlanetX/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/Mieye/AndroidStudioProjects/PlanetX/app/src/main/res/layout/fragment_config_connection_result.xml" value="0.1954954954954955" />
+        <entry key="..\:/Users/Mieye/AndroidStudioProjects/PlanetX/app/src/main/res/layout/fragment_config_data_display.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Mieye/AndroidStudioProjects/PlanetX/app/src/main/res/layout/fragment_config_qr_scan.xml" value="0.1984375" />
+        <entry key="..\:/Users/Mieye/AndroidStudioProjects/PlanetX/app/src/main/res/layout/fragment_config_welcome.xml" value="0.1954954954954955" />
+        <entry key="..\:/Users/Mieye/AndroidStudioProjects/PlanetX/app/src/main/res/layout/fragment_home.xml" value="0.2625" />
+        <entry key="..\:/Users/Mieye/AndroidStudioProjects/PlanetX/app/src/main/res/layout/fragment_start_router.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="font_size_small">10sp</dimen>
+    <dimen name="font_size_medium">20sp</dimen>
+    <dimen name="font_size_large">25sp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="nav_button_width">150dp</dimen>
+    <dimen name="nav_button_height">45dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_32">32dp</dimen>
+    <dimen name="margin_40">40dp</dimen>
+    <dimen name="nav_button_progress_bar_diameter">28dp</dimen>
+    <dimen name="progress_bar_elevation">2dp</dimen>
+    <dimen name="corner_radius">24dp</dimen>
+    <dimen name="margin_0">0dp</dimen>
+    <dimen name="margin_24">24dp</dimen>
+</resources>
